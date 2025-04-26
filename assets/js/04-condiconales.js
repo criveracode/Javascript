@@ -22,6 +22,7 @@ if (edad >= 18) {
 
 // Else if
 let calificacion = 7;
+
 if (calificacion >= 9) {
   console.log("Aprobado");
 } else if (calificacion >= 6) {
@@ -32,6 +33,7 @@ if (calificacion >= 9) {
 
 // Switch
 let dia = 1;
+
 switch (dia) {
   case 1:
     console.log("Lunes");
@@ -62,6 +64,7 @@ switch (dia) {
 // Operador ternario
 let numero = 10;
 let resultado = numero % 2 === 0 ? "Par" : "Impar";
+
 console.log(resultado);
 
 // Operador ternario anidado

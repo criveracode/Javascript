@@ -14,6 +14,7 @@ for (let i = 0; i < 5; i++) {
 
 // Bucle While
 let j = 0;
+
 while (j < 5) {
   console.log(`Iteración while: ${j}`);
   j++;
@@ -21,6 +22,7 @@ while (j < 5) {
 
 // Bucle Do While
 let k = 0;
+
 do {
   console.log(`Iteración do while: ${k}`);
   k++;
@@ -28,18 +30,21 @@ do {
 
 // Bucle For In
 const colores = ["Rojo", "Verde", "Azul"]; // Array
+
 for (let color in colores) { // Itera sobre los índices del array
   console.log(colores[color]); // Accede a los valores del array a través de los índices
 }
 
 // Bucle For Of
 const coloresDos = ["Rojo", "Verde", "Azul"]; // Array
+
 for (let color of coloresDos) { // Itera sobre los valores del array
   console.log(color); // Accede a los valores del array directamente
 }
 
 // Bucle For Each
 const coloresTres = ["Rojo", "Verde", "Azul"]; // Array
+
 coloresTres.forEach((color, index) => { // Itera sobre los valores del array
   console.log(`Color: ${color}, Índice: ${index}`); // Accede a los valores del array y a los índices
 }); 
